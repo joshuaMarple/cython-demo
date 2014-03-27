@@ -1,4 +1,16 @@
+"""
+This module contains a function that allows you to generate an arbitrary number of primes.
+"""
+
 def primes(int kmax):
+    """    
+    Input: kmax
+	kmax (integer): the number of primes you wish to have returned
+    Returns:
+	An array of length kmax with all the primes as the elements. They are listed in order. 
+    Description: This function will return a given number of primes
+    """
+
     cdef int n, k, i
     cdef int p[1000]
     result = []
