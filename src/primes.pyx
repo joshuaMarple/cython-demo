@@ -14,8 +14,8 @@ def primes(int kmax):
     cdef int n, k, i
     cdef int p[1000]
     result = []
-    if kmax > 1000:
-        kmax = 1000
+#    if kmax > 1000:
+#        kmax = 1000
     k = 0
     n = 2
     while k < kmax:
