@@ -22,7 +22,7 @@ Alternatively, you can change your directory in idle with
 	path = os.path.abspath(os.path.join(os.path.dirname(__file__), 'path to the cython-demo src directory'))  
 	if not path in sys.path:  
 	    sys.path.insert(1, path)  
-	</code>
+	</code>  
 From there you can insert your code as per usual.
 
 If you do not use idle and just run python from the directory containing the code you wish to import, it will automatically see all the files need to import. 
