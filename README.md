@@ -22,9 +22,9 @@ Still from inside the src directory, start python (in the terminal). You can imp
 	if not path in sys.path:  
 	    sys.path.insert(1, path)  
 	</code>  
-	From there you can insert your code as per usual.
-	
-	If you do not use idle and just run python from the directory containing the code you wish to import, it will automatically see all the files need to import. 
+From there you can insert your code as per usual.
+
+If you do not use idle and just run python from the directory containing the code you wish to import, it will automatically see all the files need to import. 
 	
 To run the tests, just run <code>nosetests</code> from the root directory.
 
