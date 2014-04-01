@@ -1,5 +1,5 @@
 import sys, os
-path = os.path.abspath(os.path.join(os.path.dirname(__file__), '../src'))
+path = os.path.abspath(os.path.join(os.path.dirname(__file__), '../src/primes'))
 if not path in sys.path:
     sys.path.insert(1, path)
 import primes
