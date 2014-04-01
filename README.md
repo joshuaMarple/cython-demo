@@ -12,10 +12,11 @@ First, you will need to compile the code. Conveniently, I have provided a makefi
 In case you forgot, just run <code>make</code> from the root directory.
 
 From here, you can import the newly created files into any project.
-	Still from inside the src directory, start python (in the terminal). You can import the files now.
+
+Still from inside the src directory, start python (in the terminal). You can import the files now.
 	
 	
-	Alternatively, you can change your directory in idle with 
+	Alternatively, you can change your directory in idle with  
 	<code>import sys, os  
 	path = os.path.abspath(os.path.join(os.path.dirname(__file__), 'path to the cython-demo src directory'))  
 	if not path in sys.path:  
