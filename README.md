@@ -2,6 +2,11 @@ cython-demo
 =============
 To run and install this application you will need to do 2 things. 
 
+
+
+
+
+
 First, you need to compile the python code.
 	From inside the src directory, run 
 	<code>python setup.py build_ext --inplace </code>
@@ -15,3 +20,7 @@ From here, you can import the newly created files into any project.
 	    sys.path.insert(1, path)  
 	</code>  
 	From there you can insert your code as per usual.
+	
+To run the tests, just run <code>nosetests</code> from the root directory.
+
+Keep in mind the tests will not complete if you have not used <code>make</code> from the root directory first.
